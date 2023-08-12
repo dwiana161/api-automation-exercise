@@ -1,0 +1,21 @@
+{
+  "name": "api-automation-exercise",
+  "version": "1.0.0",
+  "description": "this is api automation test using mocha, supertest and chai",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout 10000"
+  },
+  "keywords": [
+    "api",
+    "automation"
+  ],
+  "author": "dwiana",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.7",
+    "jsonschema": "^1.4.1",
+    "mocha": "^10.2.0",
+    "supertest": "^6.3.3"
+  }
+}
